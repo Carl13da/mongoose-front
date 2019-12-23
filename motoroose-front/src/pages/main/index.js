@@ -5,13 +5,13 @@ import './styles.css';
 
 export default class Main extends Component {
   state = {
-    cars: [{ 'name': 'Mobi', 'company': 'Fiat' },
-    { 'name': 'Mobi', 'company': 'Fiat' },
-    { 'name': 'Mobi', 'company': 'Fiat' },
-    { 'name': 'Mobi', 'company': 'Fiat' },
-    { 'name': 'Mobi', 'company': 'Fiat' },
-    { 'name': 'Mobi', 'company': 'Fiat' },
-    { 'name': 'Mobi', 'company': 'Fiat' }],
+    cars: [{ 'name': 'Hb20s', 'company': 'Hyundai' },
+    { 'name': 'Hb20s', 'company': 'Hyundai' },
+    { 'name': 'Hb20s', 'company': 'Hyundai' },
+    { 'name': 'Hb20s', 'company': 'Hyundai' },
+    { 'name': 'Hb20s', 'company': 'Hyundai' },
+    { 'name': 'Hb20s', 'company': 'Hyundai' },
+    { 'name': 'Hb20s', 'company': 'Hyundai' }],
   }
 
   render() {
@@ -21,7 +21,7 @@ export default class Main extends Component {
       <div className="car-list">
         {cars.map(car => (
           <article>
-            <img src="https://img0.icarros.com/dbimg/imgnoticia/4/27348_1" alt="Mobi" />
+            <img className="image-thumb" src={require('../../assets/hyundai-hb20s.jpg')} alt="Hb20" />
             <strong>{car.name}</strong>
             <p>{car.company}</p>
 
