@@ -1,7 +1,7 @@
 .car-list {
   max-width: 700px;
   margin: 20px auto 0;
-  padding: 0 20px;
+  padding: 70px 20px;
 }
 
 .car-list article {
@@ -10,6 +10,7 @@
   border-radius: 5px;
   padding: 20px;
   margin-bottom: 20px;
+  width: 100%;
 }
 
 .car-list article p {
