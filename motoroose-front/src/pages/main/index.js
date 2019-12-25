@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 
 import './styles.css';
 
@@ -25,7 +24,7 @@ export default class Main extends Component {
             <strong>{car.name}</strong>
             <p>{car.company}</p>
 
-            <a>Ver detalhes</a>
+            <a href="#">Ver detalhes</a>
           </article>
         ))}
 
